@@ -15,7 +15,7 @@ body {
    max-width: 412px;
    height: auto;
    background-color: hsl(213, 19%, 18%);
-   padding: 50px 30px 20px;
+   padding: 50px 30px 32px; 
 }
 
 
@@ -34,15 +34,6 @@ body {
     align-items: center;
 }
 
-.card__button {
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   background-color: purple;
-   border-radius: 10px;
-   padding: 10px 20px ;
-}
-
 
 
 .star__wrap {
@@ -53,4 +44,17 @@ body {
    border-radius: 50%;
    justify-content: center;
    align-items: center;
+}
+
+
+.card__button {
+    display: flex;
+    justify-content: center;
+    padding: 14px 20px;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
 }
