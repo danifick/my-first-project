@@ -12,16 +12,18 @@ body {
    display: flex;
    flex-direction: column; 
    width: 100%;
-   max-width: 412px;
+   max-width: 350px;
    height: auto;
    background-color: hsl(213, 19%, 18%);
    padding: 50px 30px 32px; 
+   border-radius: 30px;
 }
 
 
 .card__dots {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .card__dots .dot {
@@ -57,4 +59,18 @@ body {
     width: 100%;
     border-radius: 100px;
     border: none;
+}
+
+
+.card__title {
+    font-size: 28px;
+    color: hsl(0, 100%, 100%);
+    font-weight: 700;
+
+}
+
+.card__subtitle {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
 }
