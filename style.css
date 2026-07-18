@@ -29,11 +29,14 @@ body {
 .card__dots .dot {
     width: 50px;
     height: 50px;
-    background-color: blue;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(216, 12%, 15%);
+    color: hsl(0, 100%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
 }
 
 
@@ -74,3 +77,4 @@ body {
     font-weight: 400;
     color: hsl(217, 12%, 63%);
 }
+
