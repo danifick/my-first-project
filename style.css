@@ -37,6 +37,7 @@ body {
     color: hsl(0, 100%, 100%, 0.75);
     font-size: 15px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 
@@ -49,6 +50,7 @@ body {
    border-radius: 50%;
    justify-content: center;
    align-items: center;
+   margin-bottom: 20px;
 }
 
 
@@ -62,6 +64,12 @@ body {
     width: 100%;
     border-radius: 100px;
     border: none;
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;  
+    color: hsl(216, 12%, 8%);
 }
 
 
@@ -69,12 +77,13 @@ body {
     font-size: 28px;
     color: hsl(0, 100%, 100%);
     font-weight: 700;
-
+    margin-bottom: 12px;
 }
 
 .card__subtitle {
     font-size: 15px;
     font-weight: 400;
     color: hsl(217, 12%, 63%);
+    margin-top: 0;
 }
 
