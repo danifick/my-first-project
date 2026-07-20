@@ -8,6 +8,12 @@ body {
 }
 
 
+.card__rating {
+    display: none;
+}
+
+
+
 .card {
    display: flex;
    flex-direction: column; 
@@ -85,5 +91,11 @@ body {
     font-weight: 400;
     color: hsl(217, 12%, 63%);
     margin-top: 0;
+}
+
+
+.card__thank-you {
+    /* display: none; */
+
 }
 
