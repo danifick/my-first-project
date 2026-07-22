@@ -8,14 +8,9 @@ body {
 }
 
 
-.card__rating {
-    display: none;
-}
-
-
 
 .card {
-   display: flex;
+display: none;
    flex-direction: column; 
    width: 100%;
    max-width: 350px;
@@ -23,6 +18,11 @@ body {
    background-color: hsl(213, 19%, 18%);
    padding: 50px 30px 32px; 
    border-radius: 30px;
+}
+
+
+.card__rating {
+    display: none;
 }
 
 
@@ -95,10 +95,14 @@ body {
 
 
 .card__thank-you {
-    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
     width: 100%;
     max-width: 350px;
-    padding: 50px 30px 32px; 
-
 }
+
 
