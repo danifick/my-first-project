@@ -5,6 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -99,10 +101,32 @@ display: none;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 50px 30px 32px; 
 
 
     width: 100%;
     max-width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
 }
 
 
+.thank-you__img {
+    display: block;
+    margin: 0 auto 32px;
+}
+
+
+.card__result {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 100px;
+    margin-bottom: 32px;
+    color: hsl(25, 97%, 53%);
+
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
