@@ -5,8 +5,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -129,4 +127,25 @@ display: none;
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
+}
+
+
+.thank__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 100%, 100%);
+}
+
+.thank__subtitle {
+    margin-top: 0;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+
+    padding-left: 5px;
+    padding-right: 5px;
 }
